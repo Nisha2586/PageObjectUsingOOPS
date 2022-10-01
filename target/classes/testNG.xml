@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TF_TestNg" >
+	<test name="Validating_Add_and_display_category">
+		<parameter name="inputCategory" value="TestNGTest25" />
+		<parameter name="outbound" value="100" />
+		
+		<classes>
+			<class name="com.TestPages.PracticalTest" />
+			
+		</classes>
+	</test>
+</suite>
