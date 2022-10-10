@@ -42,7 +42,7 @@ public class PracticalTest extends TestBase{
 //		System.out.println(val);
 	} 
 	
-	@Test(priority =3)
+	@Test(priority =4)
 	@Parameters("inputCategory")
 	public void verifyAddAndDisplayCategory(String inputCategory) {
 		boolean val = absPage.getInstance(TechFiosTestPage.class).validateaddCatogeryDisplayed(inputCategory);
